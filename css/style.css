@@ -427,6 +427,7 @@ header .navbar ul li a:hover{
 
     body{
         padding:0;
+        margin: auto;
     }
 }
 
@@ -434,11 +435,18 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+    body{
+        margin: auto;
+    }
 }
 
 @media (max-width:400px){
     header{
         width: 100vw;
+    }
+
+    body{
+        margin: auto;
     }
 
     .heading{
